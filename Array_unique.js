@@ -25,7 +25,7 @@ function unique(arr) {
   return ret
 }
 
-//创建对象的方式
+//创建对象的方式（利用同名属性覆盖）
 function unique(arr) {
   var ret = []
   var hash = {}
